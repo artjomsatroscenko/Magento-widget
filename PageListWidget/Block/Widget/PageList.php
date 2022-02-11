@@ -29,8 +29,7 @@ class PageList extends Template implements BlockInterface
         PageRepositoryInterface $pageRepositoryInterface,
         SearchCriteriaBuilder   $searchCriteriaBuilder,
         StoreManagerInterface   $storeManager
-    )
-    {
+    ){
         parent::__construct($context, $data);
         $this->pageRepositoryInterface = $pageRepositoryInterface;
         $this->searchCriteriaBuilder = $searchCriteriaBuilder;
